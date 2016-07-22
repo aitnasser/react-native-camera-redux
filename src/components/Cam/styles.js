@@ -12,10 +12,11 @@ module.exports= StyleSheet.create({
       marginTop: 10,
     marginBottom: 30,
     marginLeft: 10,
-    marginRight: 10
+    marginRight: 10,
+      borderRadius: 100/2
 
   },
-    welcome: {
+    title: {
     fontSize: 28,
     textAlign: 'center',
      marginTop: 10,
@@ -27,10 +28,12 @@ module.exports= StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
-      marginTop: 10,
-    marginBottom: 30,
-    marginLeft: 10,
-    marginRight: 10
+    
+    padding: 15,
+     marginLeft: 10,
+    marginRight: 10,
+    marginTop:10,
+    marginBottom:70
   },
   overlay: {
     position: 'absolute',
@@ -47,10 +50,9 @@ module.exports= StyleSheet.create({
     alignItems: 'center',
   },
   bottomOverlay: {
-    bottom: 60,
+    bottom: 25,
      marginLeft: 10,
-    marginRight: 10,
-    backgroundColor: 'rgba(0,0,0,0.4)',
+    marginRight: 10
   },
   captureButton: {
     flex: 1,

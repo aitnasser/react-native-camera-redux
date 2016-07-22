@@ -178,8 +178,8 @@ class Cam extends Component {
      return(
          <View style={styles.container}>
          <View>
-           <Text style={styles.welcome}>
-         Camera in Custom Component
+           <Text style={styles.title}>
+         Camera inside a custom component
         </Text>
          </View>
        
@@ -198,6 +198,7 @@ class Cam extends Component {
           flashMode={this.state.camera.flashMode}
           defaultTouchToFocus
         />
+         
         <View style={[styles.overlay, styles.topOverlay]}>
           <TouchableOpacity
             style={styles.typeButton}
